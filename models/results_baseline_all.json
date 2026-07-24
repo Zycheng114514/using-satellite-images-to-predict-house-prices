@@ -1,0 +1,69 @@
+{
+  "years": [
+    2025,
+    2023,
+    2021,
+    2019,
+    2017,
+    2015
+  ],
+  "n_total": 8896,
+  "results": [
+    {
+      "model": "Mean predictor",
+      "r2_log": -0.002245187759399414,
+      "r2_dollars": -0.019801974296569824,
+      "mse_log": 0.5463931560516357,
+      "mae_dollars": 979741.0,
+      "n_test": 445
+    },
+    {
+      "model": "Median predictor",
+      "r2_log": -0.010314464569091797,
+      "r2_dollars": -0.021902918815612793,
+      "mse_log": 0.5507922172546387,
+      "mae_dollars": 979877.125,
+      "n_test": 445
+    },
+    {
+      "model": "Linear regression",
+      "r2_log": 0.6645731925964355,
+      "r2_dollars": -10.118768692016602,
+      "mse_log": 0.18286433815956116,
+      "mae_dollars": 1386441.25,
+      "n_test": 445
+    },
+    {
+      "model": "Ridge regression",
+      "r2_log": 0.664574384689331,
+      "r2_dollars": -10.111361503601074,
+      "mse_log": 0.18286369740962982,
+      "mae_dollars": 1386183.375,
+      "n_test": 445
+    },
+    {
+      "model": "Lasso regression",
+      "r2_log": 0.6647135615348816,
+      "r2_dollars": -3.8117775917053223,
+      "mse_log": 0.18278780579566956,
+      "mae_dollars": 1116162.75,
+      "n_test": 445
+    },
+    {
+      "model": "Random forest",
+      "r2_log": 0.8920550344054882,
+      "r2_dollars": 0.6014688517669723,
+      "mse_log": 0.05884825992319937,
+      "mae_dollars": 436008.8526076313,
+      "n_test": 445
+    },
+    {
+      "model": "Gradient boosting",
+      "r2_log": 0.9038318748450899,
+      "r2_dollars": 0.7366654616639423,
+      "mse_log": 0.052427890400204555,
+      "mae_dollars": 343433.67405177694,
+      "n_test": 445
+    }
+  ]
+}

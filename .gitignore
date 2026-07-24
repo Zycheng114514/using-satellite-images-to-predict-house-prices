@@ -1,0 +1,33 @@
+# ── Data ────────────────────────────────────────────────────────────────────
+# The dataset is not tracked in git (large; publicly re-downloadable).
+# See data/README.md for the download link and expected layout.
+/data/*
+!/data/README.md
+
+# ── Reference PDFs ──────────────────────────────────────────────────────────
+# Third-party papers are kept locally but not committed (see docs/references/README.md).
+/docs/references/*.pdf
+
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ── ML scratch ──────────────────────────────────────────────────────────────
+/content/
+*.log
+
+# ── OS / editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

@@ -1,0 +1,20 @@
+{
+  "model": "LightGBM (embeddings + tabular)",
+  "years": [
+    2025,
+    2023,
+    2021,
+    2019,
+    2017,
+    2015
+  ],
+  "r2_log": 0.9086039680067153,
+  "r2_dollars": 0.870392574885719,
+  "mse_log": 0.049826292658185056,
+  "mae_dollars": 297318.814639675,
+  "best_iteration": 271,
+  "n_features": 2074,
+  "n_train": 8006,
+  "n_val": 445,
+  "n_test": 445
+}
